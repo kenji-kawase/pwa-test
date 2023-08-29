@@ -26,6 +26,17 @@
     <script type="module" crossorigin src="./pwa-test/assets/index-b0fa8d72.js"></script>
     <link rel="stylesheet" href="./pwa-test/assets/index-f7ee3e05.css">
   	<!--  <link rel="manifest" href="./pwa-test/manifest.webmanifest"> -->
+  	<script>
+  	if ('serviceWorker' in navigator) {
+  		navigator.serviceWorker.register('./pwa-test/sw.js').then(function(registration) {
+    	// 登録成功
+    	console.log('ServiceWorker の登録に成功しました。スコープ: ', registration.scope);
+  	}).catch(function(err) {
+    	// 登録失敗
+    	console.log('ServiceWorker の登録に失敗しました。', err);
+  	});
+	}
+	</script>
   	<script id="vite-plugin-pwa:register-sw" src="./pwa-test/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
