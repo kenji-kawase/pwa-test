@@ -15,6 +15,7 @@
     }
   ],
   "start_url": "./pwa-test/",
+  "scope": "./pwa-test/",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff"
