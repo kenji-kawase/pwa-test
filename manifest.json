@@ -3,9 +3,9 @@
   "name": "My Ionic App2",
   "icons": [
     {
-      "src": "./favicon.png",
-      "sizes": "64x64",
-      "type": "image/x-icon"
+      "src": "./img/icon.png",
+      "sizes": "256x256",
+      "type": "image/png"
     },
     {
       "src": "./img/icon.png",
