@@ -1,0 +1,21 @@
+{
+  "short_name": "Ionic App",
+  "name": "My Ionic App",
+  "icons": [
+    {
+      "src": "/pwa-test/icon/icon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-test/icon/icon.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/pwa-test",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
